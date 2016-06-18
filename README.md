@@ -1,6 +1,6 @@
 # DownloadOperationQueue
 
-### NSOperationQueue subclass to determine when all Operations are finished
+### NSOperationQueue subclass fires a completionBlock when all operations are finished.
 #### Using KVO, we observe the "operations" keypath. When it hits zero, it fires the completionBlock?()
 
         let operationQueue = DownloadOperationQueue()
